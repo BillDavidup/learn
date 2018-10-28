@@ -30,7 +30,7 @@
     <!-- 项目名称 -->
     <name>learn</name>
     <!-- 项目开源网址 -->
-    <url>http://www.example.com</url>
+    <url>https://github.com/BillDavidup/learn.git</url>
 
     <!-- 模块变量 -->
     <properties>
