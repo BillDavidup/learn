@@ -23,8 +23,10 @@
         <module>learn-gateway</module>
         <!-- 封装公共工具模块 -->
         <module>learn-common</module>
-        <!-- 研究习模块 -->
+        <!-- 研究学习模块 -->
         <module>learn-search</module>
+        <!-- 研究java基础 -->
+        <module>learn-base</module>
     </modules>
 
     <!-- 项目名称 -->

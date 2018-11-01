@@ -1,64 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!-- 父模块信息 -->
     <parent>
-        <groupId>com.bill.learn</groupId>
         <artifactId>learn</artifactId>
+        <groupId>com.bill.learn</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <!-- 模块属性 -->
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>learn-search</artifactId>
+    <artifactId>learn-base</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <!-- 模块名称 -->
-    <name>learn-search</name>
+    <name>learn-base</name>
 
     <properties>
         <!-- 跳过deploy -->
         <maven.deploy.skip>true</maven.deploy.skip>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencies>
-        <!-- ==================== 内部子模块 ===================== -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-client</artifactId>
-            <!-- 版本与learn-client保持一致 -->
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-client</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-common</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-dao</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-gateway</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-service</artifactId>
-        </dependency>
-
-        <!-- tools -->
+        <!-- tools：依赖的外部工具包 -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -105,4 +73,5 @@
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
