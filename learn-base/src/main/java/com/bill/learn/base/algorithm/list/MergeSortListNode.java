@@ -1,4 +1,4 @@
-package com.bill.learn.base.algorithm;
+package com.bill.learn.base.algorithm.list;
 
 /**
  * LeedCode:148

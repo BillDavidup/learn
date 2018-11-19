@@ -1,4 +1,4 @@
-package com.bill.learn.base.algorithm;
+package com.bill.learn.base.algorithm.list;
 
 import org.junit.Test;
 

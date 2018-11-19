@@ -1,4 +1,4 @@
-package com.bill.learn.base.algorithm;
+package com.bill.learn.base.algorithm.list;
 
 /**
  * 一个链表，奇数位升序，偶数位降序，对该链表进行排序

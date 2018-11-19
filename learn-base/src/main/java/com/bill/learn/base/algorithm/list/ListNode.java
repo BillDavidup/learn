@@ -1,4 +1,4 @@
-package com.bill.learn.base.algorithm;
+package com.bill.learn.base.algorithm.list;
 
 /**
  * 单链表的定义

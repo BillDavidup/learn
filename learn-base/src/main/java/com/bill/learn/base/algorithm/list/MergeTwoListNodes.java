@@ -1,6 +1,4 @@
-package com.bill.learn.base.algorithm;
-
-import java.util.List;
+package com.bill.learn.base.algorithm.list;
 
 /**
  * 合并两个有序链表：
