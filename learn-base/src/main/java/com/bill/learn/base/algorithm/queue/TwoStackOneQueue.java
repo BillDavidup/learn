@@ -3,6 +3,7 @@ package com.bill.learn.base.algorithm.queue;
 import java.util.Stack;
 
 /**
+ * 用两个栈实现队列
  * Created by bill on 2018/11/20.
  */
 public class TwoStackOneQueue {
@@ -56,7 +57,7 @@ public class TwoStackOneQueue {
      * @param args a
      */
     public static void main(String[] args) {
-        TwoStackOneQueue queue = new TwoStackOneQueue(new Stack<Integer>(),new Stack<Integer>());
+        TwoStackOneQueue queue = new TwoStackOneQueue(new Stack<Integer>(), new Stack<Integer>());
 
         queue.add(1);
         queue.add(2);
