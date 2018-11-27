@@ -1,7 +1,6 @@
 package com.bill.learn.base.common;
 
 import java.util.concurrent.Callable;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 带有返回值得线程类
