@@ -99,5 +99,20 @@ public class ReturnArithmeticExpression {
         node4.left = nodee;
         node4.right = nodef;
         returnArithmeticExpression(node2);
+        TreeNode no1 = new TreeNode("*");
+        TreeNode no2 = new TreeNode("+");
+        TreeNode no3 = new TreeNode("+");
+        TreeNode no4 = new TreeNode("2");
+        TreeNode no5 = new TreeNode("3");
+        TreeNode no6 = new TreeNode("4");
+        TreeNode no7 = new TreeNode("5");
+        no1.left = no2;
+        no1.right = no3;
+        no2.left = no4;
+        no2.right = no5;
+        no3.left = no6;
+        no3.right = no7;
+        System.out.println();
+        returnArithmeticExpression(no1);
     }
 }
