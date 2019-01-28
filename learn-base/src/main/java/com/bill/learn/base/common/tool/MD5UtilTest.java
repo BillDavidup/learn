@@ -3,7 +3,7 @@ package com.bill.learn.base.common.tool;
 public class MD5UtilTest {
     private static final String url = "https://ks3-cn-beijing.ksyun.com/bkt-tj-mv-transcode-kscn/kvideo-transcoding/A677E76094156FAA696F7BD9B27839C8-1547257803268-480p.mp4";
     private static final String resultUrl = "https://kvideo.cdn.pandora.xiaomi.com/kvideo-transcoding/A677E76094156FAA696F7BD9B27839C8-1547257803268-480p.mp4";
-    private static final String key = "kingsoft";
+    private static final String key = "kingsoft-kvideo-transcoding-3f4abb";
 
     /**
      * main
