@@ -1,7 +1,5 @@
 package com.bill.learn.base.algorithm.list;
 
-import org.junit.Test;
-
 /**
  * Created by bill on 2018/11/14.
  */
@@ -26,7 +24,6 @@ public class MyListNode {
         tail = newNode;
     }
 
-    @Test
     public void testHeadInsert() {
         //头插法测试
         ListNode head = new ListNode();
@@ -37,7 +34,6 @@ public class MyListNode {
         printListNode(head);
     }
 
-    @Test
     public void testTailInsert() {
         //尾插法测试
         ListNode head = new ListNode();

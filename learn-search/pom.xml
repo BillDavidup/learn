@@ -29,17 +29,6 @@
         <!-- ==================== 内部子模块 ===================== -->
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>learn-client</artifactId>
-            <!-- 版本与learn-client保持一致 -->
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>learn-client</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>${project.groupId}</groupId>
             <artifactId>learn-common</artifactId>
         </dependency>
 
@@ -62,11 +51,6 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

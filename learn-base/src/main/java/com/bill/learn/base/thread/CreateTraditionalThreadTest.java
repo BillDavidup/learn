@@ -1,7 +1,5 @@
 package com.bill.learn.base.thread;
 
-import org.junit.Test;
-
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
@@ -20,7 +18,6 @@ public class CreateTraditionalThreadTest {
     }
 
     //方式一：实现Runable接口的run方法
-    @Test
     public void testCreateThreadByImplRunnable() {
 
         //1.创建实现Runnable接口的类
@@ -45,7 +42,6 @@ public class CreateTraditionalThreadTest {
     }
 
     //方式二：继承Thread类
-    @Test
     public void testCreateThreadByExtendsThread() {
 
         //1.定义一个继承Thread的类来创建一个线程
@@ -69,7 +65,6 @@ public class CreateTraditionalThreadTest {
     }
 
     //方式三：实现Callable接口来创建线程
-    @Test
     public void testCreateThreadByImplCallable() {
 
         //1.创建实现Callable接口的类
