@@ -2,7 +2,7 @@ package com.bill.learn.base.thread;
 
 /**
  * @author wudening
- * @description: 通过类对象锁，两线程交替输出奇偶数
+ * @description: 通过类对象锁（非实例对象锁），两线程交替输出奇偶数
  * @date 2019-07-15 21:50
  */
 public class TwoThreadPrintNumTest {
