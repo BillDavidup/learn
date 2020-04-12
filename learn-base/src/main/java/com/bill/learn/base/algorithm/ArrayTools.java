@@ -16,4 +16,13 @@ public class ArrayTools {
             }
         }
     }
+
+    /**
+     * 初始化一个int数组
+     * @return 数组
+     */
+    public static int[] initArr() {
+        //return new int[] {48,62,35,77,55,14,35,98};
+        return new int[] {6,1,2,7,9,3,4,5,10,8};
+    }
 }
