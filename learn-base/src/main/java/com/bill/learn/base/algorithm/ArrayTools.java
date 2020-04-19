@@ -25,4 +25,13 @@ public class ArrayTools {
         //return new int[] {48,62,35,77,55,14,35,98};
         return new int[] {6,1,2,7,9,3,4,5,10,8};
     }
+
+    /**
+     * 初始化一个升序int数组
+     * @return 数组
+     */
+    public static int[] initSortArr() {
+        //return new int[] {48,62,35,77,55,14,35,98};
+        return new int[] {1,2,2,7,9,10,11,14,15,30,58};
+    }
 }
