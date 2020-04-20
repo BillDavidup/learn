@@ -19,6 +19,7 @@ public class InsertSort {
 
     /**
      * 直接插入排序
+     *
      * @param sortArr
      * @param length
      */
@@ -26,6 +27,7 @@ public class InsertSort {
 
         for (int i = 1; i < length; i++) {
             int curTemp = sortArr[i];
+            // 以排好序列的最有边界下标
             int j = i - 1;
             //TODO 根据下标取值的场景，应该判断条件写在前面，否者容易数组下标越界
             while (j >= 0 && sortArr[j] > curTemp) {
@@ -49,11 +51,12 @@ public class InsertSort {
             while (low <= high) {
                 int mid = (low + high) / 2;
                 if (sortArr[mid] < curTemp) {
-                    low  = mid + 1;
+                    low = mid + 1;
                 } else {
                     high = mid - 1;
                 }
             }
+            // low的位置就是元素插入的正确位置，从i-1的有序位置开始元素后移，到i-1位置
             for (int j = i - 1; j >= low; --j) {
                 sortArr[j + 1] = sortArr[j];
             }
