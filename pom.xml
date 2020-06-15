@@ -46,7 +46,7 @@
         <!-- 各依赖的全局版本 -->
         <spring.version>4.3.7.RELEASE</spring.version>
         <!-- 添加md5安全依赖 -->
-        <spring.security.version>5.1.2.RELEASE</spring.security.version>
+        <spring.security.version>5.1.11.RELEASE</spring.security.version>
         <jackson.version>2.9.10</jackson.version>
         <aspectj.version>1.8.9</aspectj.version>
         <log4j2.version>2.9.0</log4j2.version>
